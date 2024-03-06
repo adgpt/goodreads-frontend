@@ -1,0 +1,35 @@
+.book-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin: 15px;
+}
+.book-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+
+.title-and-date-container {
+  display: flex;
+  align-items: center;
+}
+.book-rating {
+  color: #808080;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.published-date {
+  color: #808080;
+  font-size: 14px;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

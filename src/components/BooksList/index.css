@@ -1,0 +1,13 @@
+.books-list-container {
+  display: flex;
+  justify-content: center;
+}
+.books-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  max-width: 1000px;
+}
+.all-books-heading {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
